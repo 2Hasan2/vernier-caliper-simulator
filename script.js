@@ -74,3 +74,8 @@ randomBTN.addEventListener("click", function() {
     let ww = window.innerWidth;
     caliper.style.translate = `${-leftPos+320}px`
 });
+
+    window.onload = function() {
+    var scale = 1; // set the desired zoom level here
+    document.body.style.transform = "scale(" + scale + ")";
+    };

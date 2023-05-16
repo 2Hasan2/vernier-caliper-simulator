@@ -13,7 +13,7 @@ body {
     align-items: center;
     align-content: center;
     flex-direction: column;
-    overflow: hidden
+    overflow-y: hidden;
 }
 
 .vernier-caliper {
